@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <!-- partie non visible dans la page -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio - Prénom Nom, UI Designer" />
+    <title>Portfolio</title>
+
+    <!-- lie le fichier style.css à ton fichier html -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import d'une font de Google Fonts (code copier/coller du site)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@400;600&display=swap"
+       rel="stylesheet"
+/>
+    <!-- import d'une libraire d'icones de marque de Flaticon (code copier/coller du site)-->
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css"
+    />
+  </head>
+
+    <!-- JS pour les vidéos -->
+    
+  <!-- partie qui s'affiche dans la page -->
+  <body>
+    <header>
+      <div class="header-left">
+      <h2 class="montserrat-semi-bold">Manuel JACQUIER</h2>
+      </div>
+
+      <nav class="header-nav" aria-label="Navigation principale">
+        <a href="#gestion-projet">Projets</a>
+        <a href="#graphisme">Graphisme</a>
+        <a href="#video-photo">Vidéo/Photo</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-right">
+        <a
+          class="social-link"
+          href="https://www.instagram.com/label_ecole/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+        >
+          <i class="fi fi-brands-instagram"></i>
+        </a>
+      </div>
+    </header>
+
+    <!-- bloc principale de la page -->
+    <main>
+    <div id="background-main-title" class="corner-radius">
+  <div class="hero">
+    <h1 id="main-title">Concepteur Designer UI/UX</h1>
+
+    <div class="hero-text text-center">
+      <p>
+        Je conçois des interfaces claires, accessibles et orientées projet.
+        Recherche utilisateur, wireframes, UI/UX, prototypage et WordPress.
+      </p>
+      <p>
+        Utilisation de logiciels tels que
+        <strong>FIGMA, ILLUSTRATOR, PHOTOSHOP…</strong>
+      </p>
+    </div>
+
+    <div class="hero-badges" aria-label="Compétences clés">
+      <span class="badge">UX / UI</span>
+    </div>
+  </div>
+</div>
+
+      <section id="gestion-projet">
+        <div class="section-head">
+          <h2>Gestion de Projet</h2>
+        </div>
+
+        <!-- Projet 1 -->
+        <article class="project-container corner-radius">
+          <div class="project-content">
+            <h2 class="project-title">Majors Hockey Store</h2>
+            <p class="project-meta">
+              Logiciel utilisé : Figma · Illustrator · Photoshop · PremierePro<br/>
+              Durée : 6 mois
+            </p>
+            <br/>
+            <p>
+             Commercialisation de maillot américains sur le marche français <br>
+              <br />Découverte d’un sport que je ne connais que de nom et que j’ai beaucoup aimé par la suite.
+                    C’est en voulant faire un cadeau à un ami, que je réalise que pour commander des maillots ça ne se fait sur des sites étrangers 
+                    donc je décide de vouloir crée mon e-commerce dans ce secteur là <br>
+            </p>
+
+            <div class="project-actions">
+              <a class="btn btn-ghost" href="#contact">Me contacter</a>
+            </div>
+          </div>
+
+          <img
+            class="corner-radius project-image"
+            src="C:\Users\Label Ecole\Desktop\HTML-CSS-Jour3\Portfolio-template\maillot.png"
+            alt="Illustration du projet"
+            width="60"
+            loading="lazy"
+          />
+        </article>
+
+      <section id="graphisme" class="green-container corner-radius">
+        <div class="section-head">
+          <h2>Graphisme</h2>
+        </div>
+
+        <div class="grid">
+          <figure class="card corner-radius">
+            <img
+              src="logo.png" alt="Logo"
+              alt="Projet graphisme 1"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3>Le Logo</h3>
+              <p>fait avec illustrator </p>
+            </figcaption>
+          </figure>
+
+          <figure class="card corner-radius">
+            <img
+              src="cartedevisite.png" alt="cartedevisite"
+              alt="Projet graphisme 2"
+              loading="lazy"
+            />
+            <figcaption>
+              <h3>Identité visuelle</h3>
+              <p>Carte de visite</p>
+            </figcaption>
+        </div>
+      </section>
+
+      <section id="video-photo" class="blue-container corner-radius">
+  <div class="section-head">
+    <h2>Vidéo</h2>
+    <p class="section-subtitle">Présentation du projet (montage / captation).</p>
+  </div>
+
+  <figure class="card corner-radius video-card">
+    <div class="video-wrap">
+      <video
+        class="video-thumb"
+        controls
+        preload="metadata"
+        poster="images/preview-video-01.jpg"
+        muted
+        playsinline
+      >
+        <source src="videos/sequence-01.mp4" type="video/mp4" />
+        Ton navigateur ne supporte pas la lecture vidéo.
+      </video>
+    </div>
+
+    <figcaption>
+      <h3>Présentation du projet</h3>
+    </figcaption>
+  </figure>
+</section>
+
+      <section id="contact" class="contact corner-radius">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="section-subtitle">
+            Disponible pour missions freelance, CDI.
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-item">
+            <h3>Email</h3>
+            <p><a href="mailto:prenom.nom@email.com">prenom.nom@email.com</a></p>
+          </div>
+
+          <div class="contact-item">
+            <h3>Réseaux</h3>
+            <p>
+              <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              ·
+              <a
+                href="https://www.instagram.com/label_ecole/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Instagram</a
+              >
+            </p>
+          </div>
+
+          <div class="contact-item">
+            <h3>Localisation</h3>
+            <p>Marseille </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 - labelécole</p>
+    </footer>
+    <script>
+      document.querySelectorAll(".video-card").forEach((card) => {
+        const video = card.querySelector("video");
+        const btn = card.querySelector(".play-btn");
+
+        btn.addEventListener("click", () => {
+          video.setAttribute("controls", "controls");
+          video.play();
+          btn.style.display = "none";
+        });
+
+        video.addEventListener("pause", () => {
+          btn.style.display = "";
+        });
+
+        video.addEventListener("ended", () => {
+          video.currentTime = 0;
+          btn.style.display = "";
+        });
+      });
+    </script>
+  </body>
+</html>
